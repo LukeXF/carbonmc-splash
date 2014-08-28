@@ -1,4 +1,4 @@
-carbonmc-splash
+CarbonMC Splash Page
 ===============
 
 A simple splash screen for a Carbon-MC.net
