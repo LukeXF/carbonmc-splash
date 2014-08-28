@@ -1,0 +1,11 @@
+#
+#	  Author :		Luke Brown
+#	  License:  	Contacted Work
+#	  Created: 		August 2014
+#	  Contact:		me@luke.sx
+#
+
+RewriteEngine On
+Options -Indexes
+ErrorDocument 403 http://demo.luke.sx/Carbon-MC
+ErrorDocument 404 http://demo.luke.sx/Carbon-MC

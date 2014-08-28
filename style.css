@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+    cursor:default !important;
+}
+body {
+    overflow: hidden;
+    background: /* top, transparent black, faked with gradient */ linear-gradient( rgba(10, 10, 10, 0.83), rgba(0, 0, 0, 0.65) ), /* bottom, image */ url(http://i.imgur.com/w23UN0Y.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
+    /* Stops people selecting stuff on site*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+/*h1 {
+    font-size: 180px;
+    font-family: 'Yellowtail', cursive;
+    margin-top: 100px;
+    font-weight: 400
+}
+h3 {
+    font-size: 100px;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: -200px;
+    margin-bottom: 25px;
+}*/
+h1 {
+    font-size: 180px;
+    font-family: 'Yellowtail', cursive;
+    margin-top: 100px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+section {
+    font-family: 'Architects Daughter', cursive;
+}
+#buttons {
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+}
+img{
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+img:hover{
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.online {
+    color: green;
+}
+.online:hover {
+    text-decoration: none;
+    color: green;
+}
+.modal {
+    overflow-y: auto;
+}
+.modal-header {
+    font-family: 'Yellowtail', cursive;
+    background: #222;
+    border-bottom: 1px solid #1D1D1D;
+}
+.modal-body, .modal-color, .modal-color > h3 {
+    background: #222;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.modal-title {
+    background: #222;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.modal-body > h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.modal-footer {
+    background: #222;
+    margin-top: 0px !important;
+}
+
+.modal-color > div > p {
+    margin-top: 5px;
+}
